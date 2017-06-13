@@ -1,3 +1,7 @@
+$(window).load(function() {
+    $("#loaderInner").fadeOut();
+    $("#loader").delay(400).fadeOut("slow");
+});
 $(document).ready( function(){
     $(" #title-1 ").textillate({
         loop: true,
